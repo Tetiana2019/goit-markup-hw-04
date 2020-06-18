@@ -1,5 +1,8 @@
 /* MAIN PAGE */
 /* Header */
+.header {
+  border: 1px solid var(--line-color);
+}
 .header-nav {
   display: flex;
   align-items: center;
@@ -176,12 +179,6 @@
 .description-item:not(:last-child) {
   margin-right: 30px;
 }
-/* .description-img {
-  text-align: center;
-  margin-bottom: 30px;
-  background: var(--secondary-bg-color);
-  padding: 25px 100px;
-} */
 .description-text {
   max-width: 255px;
   width: 100%;
@@ -401,13 +398,9 @@ footer {
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.4);
   font-weight: 400;
-  margin-top: 25px;
+  padding-top: 25px;
 }
-
 /* PORTFOLIO */
-.portfolio {
-  border: 1px solid var(--line-color);
-}
 /* Portfolio filters */
 .portfolio-filters {
   display: flex;
