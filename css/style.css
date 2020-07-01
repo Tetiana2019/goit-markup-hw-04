@@ -291,6 +291,7 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  padding-bottom: 25px;
 }
 .socials-icon {
   --color1: var(--primary-bg-color);
@@ -383,8 +384,8 @@ footer {
 .footer-contact.address {
   color: var(--footer-text-color);
 }
-.footer-icon{
-  --color1:#52525a;
+.footer-icon {
+  --color1: #52525a;
   --color2: var(--footer-text-color);
 }
 .footer-link {
@@ -401,16 +402,19 @@ footer {
   margin-top: 56px;
   margin-bottom: 20px;
 }
-.social-list {
+.social-links {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.social-link {
+.social-list {
   list-style: none;
 }
-.social-link:not(:last-child) {
+.social-list:not(:last-child){
   margin-right: 10px;
+}
+.footer-links {
+  padding-bottom: 0;
 }
 .form-suscribe {
   display: flex;
@@ -486,7 +490,8 @@ footer {
   border: 1px solid transparent;
   font-size: 16px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: bold;
+  padding: 6px 22px;
   text-align: center;
   display: flex;
   align-items: center;
